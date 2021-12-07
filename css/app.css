@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.board {
+    margin: auto;
+}
+
+.modal {
+    width: 130px;
+    height: 60px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(27, 93, 155);
+    border-radius: 10px;
+    display: none;
+}
+
+.modal button {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px grey solid;
+    margin-top: 10px;
+}
+
+.modal button:hover {
+    cursor: pointer;
+    background-color: rgb(48, 161, 37);
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.wall {
+    background-color: rgb(27, 93, 155);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.is-super {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(27, 93, 155);
+    width: 90px;
+    height: 20px;
+    margin: auto;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    display: none;
+}
+
+
